@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
